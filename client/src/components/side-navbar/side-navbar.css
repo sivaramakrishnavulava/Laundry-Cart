@@ -1,0 +1,36 @@
+.side-navbar{
+    background-color: #5861AE;
+    max-width: 35px;
+    color: white;
+    padding: 20px 8px 0 5px;
+    text-align: center;
+    height: calc(98vh - 100px);
+    position: relative;
+    width: 35px;
+}
+.side-navbar i{
+    font-size: 1.2rem;
+}
+.side-navbar div{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.side-navbar div:not(.logout-btn):hover{
+    background-color: white;
+    color: #5861AE;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 4px;
+}
+.side-navbar .logout-btn{
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+}
+.fa-right-from-bracket{
+    transition: transform 0.5s;
+}
+.logout-btn .fa-right-from-bracket:hover{
+    font-size: 1.5rem; 
+    transform: rotate(180deg);
+}

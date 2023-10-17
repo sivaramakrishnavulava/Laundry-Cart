@@ -1,0 +1,64 @@
+.create-order-container{
+    max-width: calc(100% - 35px);
+    width: calc(100% - 35px);
+    border: 2px solid red;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+.create-order-container div{
+    box-sizing: border-box;
+    height: 40px;
+}
+.create-order-container-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+.create-order-container-row1 input{
+    box-sizing: border-box;
+    padding: 4px 8px;
+    outline: none;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    color: gray;
+    left: 5px;
+    top: 5px;
+}
+.create-order-container-row3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.create-order-container-row3 button{
+    border-radius: 4px;
+    width: 100px;
+    padding: 6px 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #5861AE;
+    font-weight: 700;
+    border: 2px solid #5861AE;
+    letter-spacing: 0.03rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.create-order-container-row3 .proceed-btn{
+    background-color: #5861AE;
+    color: white;
+}
+.create-order-container-row3 button:hover{
+    cursor: pointer;
+    padding: 5px 13px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.create-order-container-row2{
+    border: 1px solid black;
+    max-height: 450px;
+}

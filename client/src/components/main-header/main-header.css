@@ -1,0 +1,41 @@
+.main_header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    min-height: 60px;
+}
+.main_header_container-heading{
+    text-indent: 30px;
+    font-weight: 700;
+    letter-spacing: 0.09rem;
+    color: #5861AE;
+}
+.main_header_container-navbar{
+    display: flex;
+}
+.main_header_container-navbar div{
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    padding: 20px 25px;
+    color: #565657;
+}
+.main_header_container-navbar div:nth-child(3) span{
+    font-size: 0.8rem;
+}
+.main_header_container-navbar div:nth-child(3){
+    background-color: #5861AE;
+    color: #FFFFFF;
+}
+.user_image{
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.fa-user{
+    font-size: 1.2rem;
+}
+.main_header_container .user_info{
+    display: flex;
+}

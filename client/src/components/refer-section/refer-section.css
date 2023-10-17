@@ -1,0 +1,21 @@
+.refer_section_container{
+    border-top: 3px solid #5861AE;
+    background-color:#F8F9FF;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.refer_section_container div:first-child{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    padding-bottom: 5px;
+}
+.refer_section_container div:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    color: #3D3D43;
+    font-style: italic;
+}

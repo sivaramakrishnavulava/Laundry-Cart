@@ -1,0 +1,45 @@
+.order_successfull_container{
+    font-family: "Open Sans";
+    box-sizing: border-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E5E0E0;
+    border-radius: 8px;
+    min-height: 350px;
+    max-width: 350px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.order_successfull_container div{
+    padding-bottom: 20px;
+}
+.fa-circle{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #5861AE60;
+    font-size: 6rem;
+}
+.fa-check{
+    position: absolute;
+    font-size: 2.5rem;
+    color: #5861AE;
+}
+.order_successfull_container button{
+    background-color: #5861AE;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.order_successfull_container button:hover{
+    font-size: 1rem;
+}

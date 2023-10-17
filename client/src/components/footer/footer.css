@@ -1,0 +1,13 @@
+footer{
+    background-color: #182838;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.fa-copyright{
+    font-size: 0.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
